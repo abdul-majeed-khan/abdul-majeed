@@ -25,7 +25,7 @@ export default function Shapes() {
             blur={1}
             far={9}
           />
-          <Environment preset="studio" />
+          <Environment preset="sunset" />
         </Suspense>
       </Canvas>
     </div>
@@ -65,6 +65,10 @@ function Geometries() {
     new Audio("/sounds/hit2.ogg"),
     new Audio("/sounds/hit3.ogg"),
     new Audio("/sounds/hit4.ogg"),
+    new Audio("/sounds/hit1.ogg"),
+    new Audio("/sounds/hit6.ogg"),
+    new Audio("/sounds/hit7.ogg"),
+    new Audio("/sounds/hit8.ogg"),
   ];
 
   const materials = [
